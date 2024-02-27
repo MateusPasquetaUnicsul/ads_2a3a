@@ -1,0 +1,20 @@
+-- inicializar repositorio do git
+git init
+
+-- alterar branch master para main
+git branch -m master main
+
+-- verifica o status do repositorio
+git status
+
+-- comando para inserir um arquivo na proxima versão
+git add nomedoarquivo.extensaodoarquivo
+
+-- comando para inserir todas as modificaçoes na proxima versao
+git add . 
+
+-- comando para gerar uma nova versao
+git commit -m "breve descriçao da versao"
+
+-- verifica todas as versoes criadas 
+git log
