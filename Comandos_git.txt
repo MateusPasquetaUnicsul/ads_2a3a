@@ -1,6 +1,13 @@
 -- inicializar repositorio do git
 git init
 
+
+-- comando para atualizar o nome do usuario (isso nao eh o usuario do github)
+git config --global user.name "Nome que vc quer"
+
+-- comando atualizar o email do usuario (sao apenas infs locais)
+git config --global user.email "Nome que vc quer"
+
 -- alterar branch master para main
 git branch -m master main
 
@@ -18,3 +25,9 @@ git commit -m "breve descriçao da versao"
 
 -- verifica todas as versoes criadas 
 git log
+
+
+-- retornar um determinado commit (versao)
+git reset --hard iddocommit
+
+git reset --hard head-1 (volta uma versão. ~2 volta duas versoes)
