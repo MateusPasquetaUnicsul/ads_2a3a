@@ -31,3 +31,6 @@ git log
 git reset --hard iddocommit
 
 git reset --hard head-1 (volta uma versão. ~2 volta duas versoes)
+
+
+Comando "ls" server para mostrar quais sao as pantas que estao dentro
