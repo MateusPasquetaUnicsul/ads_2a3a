@@ -1,0 +1,15 @@
+git init 
+
+git branch -m master main
+
+git remote add origin https://github.com/MateusPasquetaUnicsul/ads_2a3a.git
+
+git clone https://github.com/MateusPasquetaUnicsul/ads_2a3a.git
+
+
+-- comando para inserir todas as modificaçoes na proxima versao
+git add . 
+
+-- comando para gerar uma nova versao
+git commit -m "breve descriçao da versao"
+
